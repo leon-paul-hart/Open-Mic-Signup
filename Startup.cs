@@ -19,6 +19,7 @@ namespace Open_Mic_Signup
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
+            services.AddWebOptimizer();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -36,6 +37,8 @@ namespace Open_Mic_Signup
             }
 
             app.UseHttpsRedirection();
+
+            app.UseWebOptimizer();
 
             app.UseStaticFiles();
 
