@@ -8,11 +8,6 @@
     <PackageReference Include="LigerShark.WebOptimizer.Core" Version="3.0.304" />
     <PackageReference Include="Microsoft.Web.LibraryManager.Build" Version="2.1.113" />
   </ItemGroup>
-  <ItemGroup>
-    <Content Update="C:\Users\leonp\.nuget\packages\bootstrap\4.6.0\contentFiles\any\any\wwwroot\js\bootstrap.js">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-  </ItemGroup>
   <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
     <TypeScriptTarget>ES2020</TypeScriptTarget>
     <TypeScriptJSXEmit>React</TypeScriptJSXEmit>
